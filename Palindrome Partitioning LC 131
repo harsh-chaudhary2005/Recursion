@@ -30,4 +30,5 @@ public:
         getAllParts(s, partitions, ans);
         return ans;
     }
+
 };
