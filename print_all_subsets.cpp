@@ -16,6 +16,7 @@ void printSearch(vector<int> &arr, vector<int> &ans, int i){
     //exclude
     ans.pop_back();   //backtracking 
     printSearch(arr, ans, i+1);
+    
 }
 int main(){
   vector<int> arr = {1, 2, 3};
