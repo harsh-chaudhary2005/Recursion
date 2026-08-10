@@ -9,6 +9,7 @@ void printNum(int n){
     cout << n << " ";
     printNum(n-1);
 }
+
 int main(){
   int n = 1545;
   printNum(n);
