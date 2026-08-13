@@ -35,5 +35,6 @@ public:
         vector<vector<string>> ans;
         nQueens(board, 0, n, ans);
         return ans;
+
     }
 };
