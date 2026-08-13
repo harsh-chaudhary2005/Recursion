@@ -14,6 +14,7 @@ public:
         }
         return -1;
     }
+
     int search(vector<int>& arr, int tar) {
         return binSearch(arr, tar, 0, arr.size()-1);
 
