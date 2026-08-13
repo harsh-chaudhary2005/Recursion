@@ -14,6 +14,7 @@ public:
         while(idx < nums.size() && nums[idx] == nums[idx-1]) idx++;
         getAllSubsets(nums, ans, idx, allSubsets);
     }
+
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
         sort(nums.begin(), nums.end());
         vector<vector<int>> allSubsets;
